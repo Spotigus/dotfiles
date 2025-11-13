@@ -1,0 +1,12 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 300 0.6 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "END_PRINT",
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP={first_layer_temperature[0]} EXTRUDER_OTHER_LAYER_TEMP={nozzle_temperature[0]} BED_TEMP=[bed_temperature_initial_layer_single] CHAMBER_TEMP={overall_chamber_temperature} TOTAL_LAYER_COUNT={total_layer_count} X0={adaptive_bed_mesh_min[0]} Y0={adaptive_bed_mesh_min[1]} X1={adaptive_bed_mesh_max[0]} Y1={adaptive_bed_mesh_max[1]}",
+    "name": "Voron 2.4 300 0.6 nozzle - Web",
+    "print_host": "10.42.40.8",
+    "printer_settings_id": "Voron 2.4 300 0.6 nozzle - Web",
+    "printing_by_object_gcode": ";BETWEEN_OBJECTS\nG92 E0",
+    "version": "2.3.1.10"
+}

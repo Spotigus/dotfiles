@@ -28,6 +28,9 @@ return {
 			end, {})
 			vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 			vim.keymap.set("n", "<leader><leader>", builtin.oldfiles, {})
+			vim.keymap.set("n", "<leader>fi", builtin.lsp_implementations, {})
+			vim.keymap.set("n", "<leader>fd", builtin.lsp_definitions, {})
+			vim.keymap.set("n", "<leader>fs", builtin.lsp_workspace_symbols, {})
 			require("telescope").load_extension("ui-select")
 			require("telescope").load_extension("fzf")
 		end,

@@ -10,6 +10,7 @@ return {
 			automatic_enable = {
 				"lua_ls",
 				"vimls",
+				"clangd",
 			},
 		})
 	end,
